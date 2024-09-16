@@ -15,7 +15,7 @@ namespace MyMySQLApp
         static void Main(string[] args)
         {
 
-            string connectionString = "Server=localhost;Database=ecommerce;User ID=root;Password=201023;";
+            string connectionString = "Server=localhost;Database=ecommerce;User ID=root;Password=;";
             using (var connection = new MySqlConnection(connectionString))
             {
                 try
